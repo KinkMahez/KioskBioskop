@@ -28,30 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
             this.btnSimpan = new Guna.UI2.WinForms.Guna2Button();
             this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.dgvJadwal = new Guna.UI2.WinForms.Guna2DataGridView();
-            this.btnShow = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
-            this.dataGridViewImageColumn2 = new System.Windows.Forms.DataGridViewImageColumn();
-            this.dataGridViewImageColumn1 = new System.Windows.Forms.DataGridViewImageColumn();
-            this.txtID = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel9 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.cmbFilm = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.cmbStudio = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.dtpTanggal = new Guna.UI2.WinForms.Guna2DateTimePicker();
-            this.txtHarga = new Guna.UI2.WinForms.Guna2TextBox();
-            this.dtpJam = new Guna.UI2.WinForms.Guna2DateTimePicker();
-            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -60,12 +45,28 @@
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column7 = new System.Windows.Forms.DataGridViewImageColumn();
             this.Column8 = new System.Windows.Forms.DataGridViewImageColumn();
+            this.btnShow = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.dataGridViewImageColumn2 = new System.Windows.Forms.DataGridViewImageColumn();
+            this.dataGridViewImageColumn1 = new System.Windows.Forms.DataGridViewImageColumn();
+            this.txtID = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel9 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.picPoster = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.dtpJam = new Guna.UI2.WinForms.Guna2DateTimePicker();
+            this.txtHarga = new Guna.UI2.WinForms.Guna2TextBox();
+            this.dtpTanggal = new Guna.UI2.WinForms.Guna2DateTimePicker();
+            this.cmbStudio = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.cmbFilm = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvJadwal)).BeginInit();
-            this.guna2Panel3.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picPoster)).BeginInit();
+            this.guna2Panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnSimpan
@@ -137,19 +138,22 @@
             // dgvJadwal
             // 
             this.dgvJadwal.AllowUserToAddRows = false;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(29)))), ((int)(((byte)(32)))));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.Gray;
-            this.dgvJadwal.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(29)))), ((int)(((byte)(32)))));
+            dataGridViewCellStyle10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.Color.Gray;
+            this.dgvJadwal.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle10;
+            this.dgvJadwal.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvJadwal.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(29)))), ((int)(((byte)(32)))));
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(46)))), ((int)(((byte)(52)))));
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvJadwal.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(46)))), ((int)(((byte)(52)))));
+            dataGridViewCellStyle11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvJadwal.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle11;
             this.dgvJadwal.ColumnHeadersHeight = 25;
             this.dgvJadwal.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
@@ -160,21 +164,20 @@
             this.Column6,
             this.Column7,
             this.Column8});
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(29)))), ((int)(((byte)(32)))));
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Yu Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.Gray;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvJadwal.DefaultCellStyle = dataGridViewCellStyle6;
-            this.dgvJadwal.Dock = System.Windows.Forms.DockStyle.Fill;
+            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(29)))), ((int)(((byte)(32)))));
+            dataGridViewCellStyle12.Font = new System.Drawing.Font("Yu Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.Gray;
+            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvJadwal.DefaultCellStyle = dataGridViewCellStyle12;
             this.dgvJadwal.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(29)))), ((int)(((byte)(32)))));
             this.dgvJadwal.Location = new System.Drawing.Point(0, 0);
             this.dgvJadwal.Name = "dgvJadwal";
             this.dgvJadwal.ReadOnly = true;
             this.dgvJadwal.RowHeadersVisible = false;
-            this.dgvJadwal.Size = new System.Drawing.Size(1299, 200);
+            this.dgvJadwal.Size = new System.Drawing.Size(1299, 181);
             this.dgvJadwal.TabIndex = 2;
             this.dgvJadwal.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(29)))), ((int)(((byte)(32)))));
             this.dgvJadwal.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -192,6 +195,71 @@
             this.dgvJadwal.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.Gray;
             this.dgvJadwal.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.White;
             this.dgvJadwal.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvJadwal_CellClick);
+            // 
+            // Column1
+            // 
+            this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.Column1.HeaderText = "ID";
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
+            this.Column1.Width = 50;
+            // 
+            // Column2
+            // 
+            this.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column2.FillWeight = 46.10473F;
+            this.Column2.HeaderText = "Judul";
+            this.Column2.Name = "Column2";
+            this.Column2.ReadOnly = true;
+            // 
+            // Column3
+            // 
+            this.Column3.FillWeight = 46.10473F;
+            this.Column3.HeaderText = "Studio";
+            this.Column3.Name = "Column3";
+            this.Column3.ReadOnly = true;
+            // 
+            // Column4
+            // 
+            this.Column4.FillWeight = 46.10473F;
+            this.Column4.HeaderText = "Tanggal";
+            this.Column4.Name = "Column4";
+            this.Column4.ReadOnly = true;
+            // 
+            // Column5
+            // 
+            this.Column5.FillWeight = 46.10473F;
+            this.Column5.HeaderText = "Jam";
+            this.Column5.Name = "Column5";
+            this.Column5.ReadOnly = true;
+            // 
+            // Column6
+            // 
+            this.Column6.FillWeight = 64.54662F;
+            this.Column6.HeaderText = "Harga";
+            this.Column6.Name = "Column6";
+            this.Column6.ReadOnly = true;
+            // 
+            // Column7
+            // 
+            this.Column7.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.Column7.HeaderText = "";
+            this.Column7.Image = global::KioskBioskop.Properties.Resources.solar_pen_outline;
+            this.Column7.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
+            this.Column7.Name = "Column7";
+            this.Column7.ReadOnly = true;
+            this.Column7.Width = 60;
+            // 
+            // Column8
+            // 
+            this.Column8.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.Column8.FillWeight = 413.7931F;
+            this.Column8.HeaderText = "";
+            this.Column8.Image = global::KioskBioskop.Properties.Resources.mdi_trash_outline;
+            this.Column8.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
+            this.Column8.Name = "Column8";
+            this.Column8.ReadOnly = true;
+            this.Column8.Width = 60;
             // 
             // btnShow
             // 
@@ -234,18 +302,6 @@
             this.guna2Button1.Text = "Update";
             this.guna2Button1.UseTransparentBackground = true;
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
-            // 
-            // guna2Panel3
-            // 
-            this.guna2Panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(27)))), ((int)(((byte)(32)))));
-            this.guna2Panel3.BorderRadius = 19;
-            this.guna2Panel3.Controls.Add(this.dgvJadwal);
-            this.guna2Panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.guna2Panel3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(58)))), ((int)(((byte)(68)))));
-            this.guna2Panel3.Location = new System.Drawing.Point(0, 604);
-            this.guna2Panel3.Name = "guna2Panel3";
-            this.guna2Panel3.Size = new System.Drawing.Size(1299, 200);
-            this.guna2Panel3.TabIndex = 23;
             // 
             // dataGridViewImageColumn2
             // 
@@ -330,60 +386,50 @@
             this.guna2Panel1.TabIndex = 3;
             this.guna2Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel1_Paint);
             // 
-            // cmbFilm
+            // picPoster
             // 
-            this.cmbFilm.BackColor = System.Drawing.Color.Transparent;
-            this.cmbFilm.BorderColor = System.Drawing.Color.Gray;
-            this.cmbFilm.BorderRadius = 8;
-            this.cmbFilm.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.cmbFilm.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbFilm.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(54)))), ((int)(((byte)(62)))));
-            this.cmbFilm.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cmbFilm.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cmbFilm.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.cmbFilm.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.cmbFilm.ItemHeight = 30;
-            this.cmbFilm.Location = new System.Drawing.Point(66, 94);
-            this.cmbFilm.Name = "cmbFilm";
-            this.cmbFilm.Size = new System.Drawing.Size(669, 36);
-            this.cmbFilm.TabIndex = 28;
-            this.cmbFilm.SelectedIndexChanged += new System.EventHandler(this.cmbFilm_SelectedIndexChanged);
+            this.picPoster.BackColor = System.Drawing.Color.Transparent;
+            this.picPoster.BorderRadius = 8;
+            this.picPoster.FillColor = System.Drawing.Color.LightGray;
+            this.picPoster.ImageRotate = 0F;
+            this.picPoster.Location = new System.Drawing.Point(1011, 67);
+            this.picPoster.Name = "picPoster";
+            this.picPoster.Size = new System.Drawing.Size(220, 329);
+            this.picPoster.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picPoster.TabIndex = 34;
+            this.picPoster.TabStop = false;
+            this.picPoster.UseTransparentBackground = true;
             // 
-            // cmbStudio
+            // guna2HtmlLabel1
             // 
-            this.cmbStudio.BackColor = System.Drawing.Color.Transparent;
-            this.cmbStudio.BorderColor = System.Drawing.Color.Gray;
-            this.cmbStudio.BorderRadius = 8;
-            this.cmbStudio.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.cmbStudio.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbStudio.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(54)))), ((int)(((byte)(62)))));
-            this.cmbStudio.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cmbStudio.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cmbStudio.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.cmbStudio.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.cmbStudio.ItemHeight = 30;
-            this.cmbStudio.Location = new System.Drawing.Point(66, 185);
-            this.cmbStudio.Name = "cmbStudio";
-            this.cmbStudio.Size = new System.Drawing.Size(669, 36);
-            this.cmbStudio.TabIndex = 29;
+            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Franklin Gothic Medium", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel1.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(69, 245);
+            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(47, 19);
+            this.guna2HtmlLabel1.TabIndex = 33;
+            this.guna2HtmlLabel1.Text = "Tanggal";
             // 
-            // dtpTanggal
+            // dtpJam
             // 
-            this.dtpTanggal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(58)))), ((int)(((byte)(68)))));
-            this.dtpTanggal.BorderColor = System.Drawing.Color.Gray;
-            this.dtpTanggal.BorderRadius = 8;
-            this.dtpTanggal.Checked = true;
-            this.dtpTanggal.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(54)))), ((int)(((byte)(62)))));
-            this.dtpTanggal.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.dtpTanggal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.dtpTanggal.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.dtpTanggal.Location = new System.Drawing.Point(66, 270);
-            this.dtpTanggal.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            this.dtpTanggal.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
-            this.dtpTanggal.Name = "dtpTanggal";
-            this.dtpTanggal.Size = new System.Drawing.Size(303, 40);
-            this.dtpTanggal.TabIndex = 30;
-            this.dtpTanggal.Value = new System.DateTime(2026, 8, 22, 10, 52, 24, 384);
+            this.dtpJam.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(58)))), ((int)(((byte)(68)))));
+            this.dtpJam.BorderColor = System.Drawing.Color.Gray;
+            this.dtpJam.BorderRadius = 8;
+            this.dtpJam.Checked = true;
+            this.dtpJam.CustomFormat = "HH:mm";
+            this.dtpJam.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(54)))), ((int)(((byte)(62)))));
+            this.dtpJam.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.dtpJam.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.dtpJam.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpJam.Location = new System.Drawing.Point(432, 270);
+            this.dtpJam.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.dtpJam.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.dtpJam.Name = "dtpJam";
+            this.dtpJam.ShowUpDown = true;
+            this.dtpJam.Size = new System.Drawing.Size(303, 40);
+            this.dtpJam.TabIndex = 32;
+            this.dtpJam.Value = new System.DateTime(2026, 8, 22, 10, 45, 35, 849);
             // 
             // txtHarga
             // 
@@ -408,115 +454,89 @@
             this.txtHarga.Size = new System.Drawing.Size(669, 36);
             this.txtHarga.TabIndex = 31;
             // 
-            // dtpJam
+            // dtpTanggal
             // 
-            this.dtpJam.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(58)))), ((int)(((byte)(68)))));
-            this.dtpJam.BorderColor = System.Drawing.Color.Gray;
-            this.dtpJam.BorderRadius = 8;
-            this.dtpJam.Checked = true;
-            this.dtpJam.CustomFormat = "HH:mm";
-            this.dtpJam.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(54)))), ((int)(((byte)(62)))));
-            this.dtpJam.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.dtpJam.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.dtpJam.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpJam.Location = new System.Drawing.Point(432, 270);
-            this.dtpJam.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            this.dtpJam.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
-            this.dtpJam.Name = "dtpJam";
-            this.dtpJam.ShowUpDown = true;
-            this.dtpJam.Size = new System.Drawing.Size(303, 40);
-            this.dtpJam.TabIndex = 32;
-            this.dtpJam.Value = new System.DateTime(2026, 8, 22, 10, 45, 35, 849);
+            this.dtpTanggal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(58)))), ((int)(((byte)(68)))));
+            this.dtpTanggal.BorderColor = System.Drawing.Color.Gray;
+            this.dtpTanggal.BorderRadius = 8;
+            this.dtpTanggal.Checked = true;
+            this.dtpTanggal.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(54)))), ((int)(((byte)(62)))));
+            this.dtpTanggal.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.dtpTanggal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.dtpTanggal.Format = System.Windows.Forms.DateTimePickerFormat.Long;
+            this.dtpTanggal.Location = new System.Drawing.Point(66, 270);
+            this.dtpTanggal.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.dtpTanggal.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.dtpTanggal.Name = "dtpTanggal";
+            this.dtpTanggal.Size = new System.Drawing.Size(303, 40);
+            this.dtpTanggal.TabIndex = 30;
+            this.dtpTanggal.Value = new System.DateTime(2026, 8, 22, 10, 52, 24, 384);
             // 
-            // guna2HtmlLabel1
+            // cmbStudio
             // 
-            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Franklin Gothic Medium", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(69, 245);
-            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(47, 19);
-            this.guna2HtmlLabel1.TabIndex = 33;
-            this.guna2HtmlLabel1.Text = "Tanggal";
+            this.cmbStudio.BackColor = System.Drawing.Color.Transparent;
+            this.cmbStudio.BorderColor = System.Drawing.Color.Gray;
+            this.cmbStudio.BorderRadius = 8;
+            this.cmbStudio.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cmbStudio.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbStudio.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(54)))), ((int)(((byte)(62)))));
+            this.cmbStudio.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cmbStudio.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cmbStudio.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.cmbStudio.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.cmbStudio.ItemHeight = 30;
+            this.cmbStudio.Location = new System.Drawing.Point(66, 185);
+            this.cmbStudio.Name = "cmbStudio";
+            this.cmbStudio.Size = new System.Drawing.Size(669, 36);
+            this.cmbStudio.TabIndex = 29;
             // 
-            // Column1
+            // cmbFilm
             // 
-            this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.Column1.HeaderText = "ID";
-            this.Column1.Name = "Column1";
-            this.Column1.ReadOnly = true;
-            this.Column1.Width = 50;
+            this.cmbFilm.BackColor = System.Drawing.Color.Transparent;
+            this.cmbFilm.BorderColor = System.Drawing.Color.Gray;
+            this.cmbFilm.BorderRadius = 8;
+            this.cmbFilm.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cmbFilm.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbFilm.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(54)))), ((int)(((byte)(62)))));
+            this.cmbFilm.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cmbFilm.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cmbFilm.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.cmbFilm.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.cmbFilm.ItemHeight = 30;
+            this.cmbFilm.Location = new System.Drawing.Point(66, 94);
+            this.cmbFilm.Name = "cmbFilm";
+            this.cmbFilm.Size = new System.Drawing.Size(669, 36);
+            this.cmbFilm.TabIndex = 28;
+            this.cmbFilm.SelectedIndexChanged += new System.EventHandler(this.cmbFilm_SelectedIndexChanged);
             // 
-            // Column2
+            // guna2Panel3
             // 
-            this.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column2.FillWeight = 46.10473F;
-            this.Column2.HeaderText = "Judul";
-            this.Column2.Name = "Column2";
-            this.Column2.ReadOnly = true;
+            this.guna2Panel3.BackColor = System.Drawing.Color.White;
+            this.guna2Panel3.BorderRadius = 19;
+            this.guna2Panel3.Controls.Add(this.dgvJadwal);
+            this.guna2Panel3.Controls.Add(this.guna2Panel4);
+            this.guna2Panel3.CustomizableEdges.TopLeft = false;
+            this.guna2Panel3.CustomizableEdges.TopRight = false;
+            this.guna2Panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.guna2Panel3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(58)))), ((int)(((byte)(68)))));
+            this.guna2Panel3.Location = new System.Drawing.Point(0, 604);
+            this.guna2Panel3.Name = "guna2Panel3";
+            this.guna2Panel3.Size = new System.Drawing.Size(1299, 200);
+            this.guna2Panel3.TabIndex = 23;
             // 
-            // Column3
+            // guna2Panel4
             // 
-            this.Column3.FillWeight = 46.10473F;
-            this.Column3.HeaderText = "Studio";
-            this.Column3.Name = "Column3";
-            this.Column3.ReadOnly = true;
-            // 
-            // Column4
-            // 
-            this.Column4.FillWeight = 46.10473F;
-            this.Column4.HeaderText = "Tanggal";
-            this.Column4.Name = "Column4";
-            this.Column4.ReadOnly = true;
-            // 
-            // Column5
-            // 
-            this.Column5.FillWeight = 46.10473F;
-            this.Column5.HeaderText = "Jam";
-            this.Column5.Name = "Column5";
-            this.Column5.ReadOnly = true;
-            // 
-            // Column6
-            // 
-            this.Column6.FillWeight = 64.54662F;
-            this.Column6.HeaderText = "Harga";
-            this.Column6.Name = "Column6";
-            this.Column6.ReadOnly = true;
-            // 
-            // Column7
-            // 
-            this.Column7.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.Column7.HeaderText = "";
-            this.Column7.Image = global::KioskBioskop.Properties.Resources.solar_pen_outline;
-            this.Column7.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
-            this.Column7.Name = "Column7";
-            this.Column7.ReadOnly = true;
-            this.Column7.Width = 60;
-            // 
-            // Column8
-            // 
-            this.Column8.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.Column8.FillWeight = 413.7931F;
-            this.Column8.HeaderText = "";
-            this.Column8.Image = global::KioskBioskop.Properties.Resources.mdi_trash_outline;
-            this.Column8.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
-            this.Column8.Name = "Column8";
-            this.Column8.ReadOnly = true;
-            this.Column8.Width = 60;
-            // 
-            // picPoster
-            // 
-            this.picPoster.BackColor = System.Drawing.Color.Transparent;
-            this.picPoster.BorderRadius = 8;
-            this.picPoster.FillColor = System.Drawing.Color.LightGray;
-            this.picPoster.ImageRotate = 0F;
-            this.picPoster.Location = new System.Drawing.Point(1011, 67);
-            this.picPoster.Name = "picPoster";
-            this.picPoster.Size = new System.Drawing.Size(220, 329);
-            this.picPoster.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picPoster.TabIndex = 34;
-            this.picPoster.TabStop = false;
-            this.picPoster.UseTransparentBackground = true;
+            this.guna2Panel4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2Panel4.BorderRadius = 19;
+            this.guna2Panel4.CustomizableEdges.TopLeft = false;
+            this.guna2Panel4.CustomizableEdges.TopRight = false;
+            this.guna2Panel4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(29)))), ((int)(((byte)(32)))));
+            this.guna2Panel4.Location = new System.Drawing.Point(0, 169);
+            this.guna2Panel4.Name = "guna2Panel4";
+            this.guna2Panel4.Size = new System.Drawing.Size(1299, 31);
+            this.guna2Panel4.TabIndex = 3;
             // 
             // jadwalFilm
             // 
@@ -530,10 +550,10 @@
             this.guna2Panel2.ResumeLayout(false);
             this.guna2Panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvJadwal)).EndInit();
-            this.guna2Panel3.ResumeLayout(false);
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picPoster)).EndInit();
+            this.guna2Panel3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -547,7 +567,6 @@
         private Guna.UI2.WinForms.Guna2DataGridView dgvJadwal;
         private Guna.UI2.WinForms.Guna2Button btnShow;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
         private System.Windows.Forms.DataGridViewImageColumn dataGridViewImageColumn2;
         private System.Windows.Forms.DataGridViewImageColumn dataGridViewImageColumn1;
         private Guna.UI2.WinForms.Guna2HtmlLabel txtID;
@@ -569,5 +588,7 @@
         private System.Windows.Forms.DataGridViewImageColumn Column7;
         private System.Windows.Forms.DataGridViewImageColumn Column8;
         private Guna.UI2.WinForms.Guna2PictureBox picPoster;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel4;
     }
 }

@@ -63,10 +63,10 @@ namespace KioskBioskop
         private void InitializeUi()
         {
             this.Text = "CineFlow - Select Your Movie";
-            this.Size = new Size(1040, 640);
+            this.WindowState = FormWindowState.Maximized;
             this.StartPosition = FormStartPosition.CenterScreen;
             this.BackColor = ColBackground;
-            this.FormBorderStyle = FormBorderStyle.FixedSingle;
+            this.FormBorderStyle = FormBorderStyle.FixedToolWindow;
             this.MaximizeBox = false;
             this.Font = new Font("Segoe UI", 9F);
 

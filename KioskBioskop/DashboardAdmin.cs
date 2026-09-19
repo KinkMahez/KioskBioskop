@@ -74,5 +74,10 @@ namespace KioskBioskop
             jadwalFilm menu = new jadwalFilm() { TopLevel = false, TopMost = true };
             panelControl.untukform(menu, panelContent);
         }
+
+        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
