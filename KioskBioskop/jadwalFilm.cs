@@ -237,5 +237,10 @@ namespace KioskBioskop
             // Refresh DataGridView & Reset Input
             TampilData();
         }
+
+        private void dtpTanggal_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -79,5 +79,17 @@ namespace KioskBioskop
         {
 
         }
+
+        private void DashboardAdmin_Load(object sender, EventArgs e)
+        {
+            dashboard menu = new dashboard() { TopLevel = false, TopMost = true };
+            panelControl.untukform(menu, panelContent);
+        }
+
+        private void guna2Button5_Click(object sender, EventArgs e)
+        {
+            laporan menu = new laporan() { TopLevel = false, TopMost = true };
+            panelControl.untukform(menu, panelContent);
+        }
     }
 }

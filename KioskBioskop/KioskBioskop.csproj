@@ -147,6 +147,12 @@
     <Compile Include="jadwalFilm.Designer.cs">
       <DependentUpon>jadwalFilm.cs</DependentUpon>
     </Compile>
+    <Compile Include="laporan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="laporan.Designer.cs">
+      <DependentUpon>laporan.cs</DependentUpon>
+    </Compile>
     <Compile Include="login.cs">
       <SubType>Form</SubType>
     </Compile>
